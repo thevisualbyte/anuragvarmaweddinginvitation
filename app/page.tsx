@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Heart, MapPin, Clock, Users } from 'lucide-react';
+import WaxSeal from '../components/WaxSeal';
 
 export default function Home() {
   const eventDate = new Date('2024-12-20');
@@ -12,8 +13,10 @@ export default function Home() {
     transition: { duration: 0.6 }
   };
 
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-amber-50 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+
+    return (
+  <WaxSeal>
+        <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-amber-50 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       {/* Hero Section */}
       <motion.section 
         className="min-h-screen flex flex-col items-center justify-center px-4 py-20 relative overflow-hidden"
@@ -308,5 +311,6 @@ export default function Home() {
         </p>
       </footer>
     </div>
+  </WaxSeal>
   );
 }
