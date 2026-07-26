@@ -101,15 +101,7 @@ export default function Home() {
             <Heart className="w-12 h-12 mx-auto text-rose-500 mb-6" fill="currentColor" />
           </motion.div>
 
-<<<<<<< HEAD
-          <motion.h1 
-            {...fadeInUp}
-            className="text-5xl md:text-7xl font-serif font-light mb-4 text-gray-900 dark:text-white tracking-wide"
-          >
-            Divya Sri Devi
-          </motion.h1>
-=======
-          <motion.h1
+<motion.h1
   {...fadeInUp}
   className="text-5xl md:text-7xl font-serif font-light mb-4 text-gray-900 dark:text-white tracking-wide"
 >
@@ -119,7 +111,6 @@ export default function Home() {
   <br />
   Divya Sri Devi
 </motion.h1>
->>>>>>> fd2aa1e (Update invitation content)
 
           <motion.div 
             {...fadeInUp}
