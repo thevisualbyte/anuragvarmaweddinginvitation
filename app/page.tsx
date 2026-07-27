@@ -283,34 +283,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* RSVP Section */}
-      <motion.section 
-        className="py-20 px-4 max-w-2xl mx-auto"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
-      >
-        <motion.div 
-          {...fadeInUp}
-          className="bg-gradient-to-br from-rose-50 to-amber-50 dark:from-slate-800 dark:to-slate-700 rounded-lg p-12 text-center shadow-lg"
-        >
-          <h2 className="text-3xl font-serif text-gray-900 dark:text-white mb-4">
-            RSVP
-          </h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Please let us know if you can celebrate with us.
-          </p>
-          <motion.button 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 bg-rose-500 hover:bg-rose-600 text-white rounded-full font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl"
-          >
-            RSVP Now
-          </motion.button>
-        </motion.div>
-      </motion.section>
-
+      
       {/* Footer */}
       <footer className="bg-gray-900 dark:bg-slate-950 text-white py-8 text-center">
         <p className="text-gray-400">
