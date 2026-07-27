@@ -62,7 +62,8 @@ export default function Home() {
             {...fadeInUp}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 font-light"
           >
-            Request the honour of your presence at the marriage of
+            Together with our families,
+we invite you to celebrate our wedding.
           </motion.p>
 
           <motion.p 
