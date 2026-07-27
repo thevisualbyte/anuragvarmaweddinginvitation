@@ -72,23 +72,30 @@ export default function Home() {
             19th - 21st August, 2026
           </motion.p>
 
-          <motion.button 
-            {...fadeInUp}
-            className="px-8 py-3 bg-rose-500 hover:bg-rose-600 text-white rounded-full font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl"
-          >
-            View Details
-          </motion.button>
+          <motion.button
+  {...fadeInUp}
+  onClick={() => {
+    document.getElementById("events")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }}
+  className="px-8 py-3 bg-rose-500 hover:bg-rose-600 text-white rounded-full font-semibold transition-colors duration-300 shadow-lg hover:shadow-xl cursor-pointer"
+>
+  View Details
+</motion.button>
         </div>
       </motion.section>
 
       {/* Event Details Section */}
-      <motion.section 
-        className="py-20 px-4 max-w-5xl mx-auto"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
-      >
+      <motion.section
+  id="events"
+  className="py-20 px-4 max-w-5xl mx-auto"
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }}
+>
         <motion.h2 
           {...fadeInUp}
           className="text-4xl font-serif text-center text-gray-900 dark:text-white mb-16"
