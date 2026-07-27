@@ -196,9 +196,7 @@ export default function Home() {
             <p className="text-gray-700 dark:text-gray-200 mb-4">
               <strong>Venue:</strong> D.G.B Convention, Sarpavaram, Kakinada
             </p>
-            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
-              Followed by Dinner
-            </p>
+            
             <a 
               href="https://maps.app.goo.gl/3qUo1Huu5JzNdZCG9"
               target="_blank"
