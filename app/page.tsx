@@ -69,7 +69,7 @@ export default function Home() {
             {...fadeInUp}
             className="text-lg text-gray-700 dark:text-gray-200 mb-12 font-serif"
           >
-            19th - 21st August, 2025
+            19th - 21st August, 2026
           </motion.p>
 
           <motion.button 
@@ -107,7 +107,7 @@ export default function Home() {
               <h3 className="text-2xl font-serif text-gray-900 dark:text-white">Haldi</h3>
             </div>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
-              <strong>Date:</strong> Wednesday, 19th August, 2025
+              <strong>Date:</strong> Wednesday, 19th August, 2026
             </p>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
               <strong>Time:</strong> 7:00 AM
@@ -135,7 +135,7 @@ export default function Home() {
               <h3 className="text-2xl font-serif text-gray-900 dark:text-white">Pellikoduku</h3>
             </div>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
-              <strong>Date:</strong> Thursday, 20th August, 2025
+              <strong>Date:</strong> Thursday, 20th August, 2026
             </p>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
               <strong>Time:</strong> 6:40 AM
@@ -158,7 +158,7 @@ export default function Home() {
               <h3 className="text-2xl font-serif text-gray-900 dark:text-white">Vididhi</h3>
             </div>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
-              <strong>Date:</strong> Thursday, 20th August, 2025
+              <strong>Date:</strong> Thursday, 20th August, 2026
             </p>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
               <strong>Time:</strong> 4:30 PM onwards
@@ -183,10 +183,12 @@ export default function Home() {
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="w-3 h-3 rounded-full bg-orange-500"></div>
-              <h3 className="text-2xl font-serif text-gray-900 dark:text-white">Reception</h3>
+              <h3 className="text-2xl font-serif text-gray-900 dark:text-white">
+  Reception &amp; Dinner
+</h3>
             </div>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
-              <strong>Date:</strong> Thursday, 20th August, 2025
+              <strong>Date:</strong> Thursday, 20th August, 2026
             </p>
             <p className="text-gray-700 dark:text-gray-200 mb-3">
               <strong>Time:</strong> 7:00 PM onwards
@@ -218,7 +220,7 @@ export default function Home() {
               <Heart className="w-6 h-6 text-rose-600 dark:text-rose-300" fill="currentColor" />
             </div>
             <p className="text-center text-gray-700 dark:text-gray-200 mb-3">
-              <strong>Date:</strong> Friday, 21st August, 2025
+              <strong>Date:</strong> Friday, 21st August, 2026
             </p>
             <p className="text-center text-gray-700 dark:text-gray-200 mb-3">
               <strong>Time:</strong> 3:53 AM
